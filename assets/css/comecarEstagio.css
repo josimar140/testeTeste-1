@@ -18,7 +18,7 @@
 }
 
 html {
-  font-size: 62,5%;
+  font-size: 62, 5%;
 }
 
 body {
@@ -235,6 +235,8 @@ h2::before {
   border-radius: 5px;
   background-color: var(--cor-verde-header-tramit-footer);
   color: var(--cor-branco);
+  white-space: wrap;
+  width: 50%;
 }
 
 .seta {
@@ -284,6 +286,13 @@ footer {
   padding: 20px;
   min-width: 100%;
   font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .aluno,
+  .diex {
+    width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -371,6 +380,7 @@ footer {
   h1 {
     margin-top: 185px;
   }
+
   footer {
     gap: 20px;
   }
@@ -385,5 +395,3 @@ footer {
     gap: 20px;
   }
 }
-
-

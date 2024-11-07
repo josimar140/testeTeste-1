@@ -230,6 +230,8 @@ h2::before {
   background-color: var(--cor-verde-header-tramit-footer);
   color: var(--cor-branco);
   margin-top: 20px;
+  white-space: wrap;
+  width: 50%;
 }
 
 .seta {
@@ -279,6 +281,15 @@ footer {
   padding: 20px;
   min-width: 100%;
   font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .aluno,
+  .diex,
+  .dgca,
+  .professor {
+    width: 100%;
+  } 
 }
 
 @media (max-width: 992px) {

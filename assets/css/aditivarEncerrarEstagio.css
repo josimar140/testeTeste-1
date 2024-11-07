@@ -223,6 +223,8 @@ h2::before {
   border-radius: 5px;
   background-color: var(--cor-verde-header-tramit-footer);
   color: var(--cor-branco);
+  white-space: wrap;
+  width: 50%;
 }
 
 .seta {
@@ -293,6 +295,13 @@ footer {
     gap: 20px;
   }
 } */
+
+@media (max-width: 991px) {
+  .aluno,
+  .diex {
+    width: 100%;
+}  
+}
 
 @media (max-width: 992px) {
   h1 {
